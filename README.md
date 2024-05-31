@@ -1,1 +1,1 @@
-# CodingChallenge5
+Hello so this project is a JavaScript program to calculate employee and manager salaries. The Employee class stores name and salary, and calculates the annual salary. The Manager subclass adds a department and includes a 15% bonus in the annual salary calculation. The program creates two manager instances with test data and logs their total annual salaries with bonuses.
