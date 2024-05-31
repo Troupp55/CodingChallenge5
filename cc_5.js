@@ -1,3 +1,6 @@
+//U61753810
+
+//Implemented an employee class with name, salary properties, and annual salary calculation
 class Employee {
     constructor(name, salary) {
         this.name = name;
@@ -14,7 +17,7 @@ class Employee {
 const employee = new Employee("John Doe", 5000);
 console.log(`Annual Salary: $${employee.calculateAnnualSalary().toFixed(2)}`);
 
-
+//Created Manager subclass with bonus calculation
 class Manager extends Employee {
     constructor(name, salary, department) {
         super(name, salary);
@@ -34,7 +37,7 @@ const manager = new Manager("Alice Smith", 7000, "Sales");
 console.log(`Total Annual Salary with Bonus: $${manager.calculateAnnualSalary().toFixed(2)}`);
 
 
-// Test Data
+// Test Data and Instantiate Manager objects and calculate annual salaries with bonuses
 const manager1 = new Manager("Bob Ross", 6600, "Digital Marketing");
 console.log(`Total Annual Salary for ${manager1.name} in ${manager1.department}: $${manager1.calculateAnnualSalary().toFixed(2)}`);
 
